@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <h1 class="logo">SneakMax</h1>
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li><a href="#catalog">Каталог</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#questions">Подборка товаров</a></li>
+                    <li><a href="#team">Наша команда</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#">Корзина</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section__one">
+            <span class="section__one__background">SneakMax</span>
+            <h1 class="section__one__title">
+                Кроссовки известных брендов с доставкой по России и СНГ
+            </h1>
+            <p class="section__one__text">
+                Мы продаем кроссовки брендов Nike, Adidas, Puma, Reebok, Converse и
+                многие другие по низким ценам
+            </p>
+            <button class="section__one__button" type="button">
+                Перейти к покупкам
+            </button>
+        </section>
+
+        <section class="section__two">
+            <h2 class="section__two__title" id="catalog">Каталог</h2>
+
+            <div class="section__two__filter">
+                <form action="" method="get">
+                    <h3>Подбор по параметрам</h3>
+                    <p>Цена,руб</p>
+                    <input type="text" placeholder="от" />
+                    <input type="text" placeholder="до" />
+                    <p>Пол</p>
+                    <input type="checkbox" name="gender" value="man" />Мужской
+                    <input type="checkbox" name="gender" value="woman" />Женский
+                    <p>Размер</p>
+                    <table>
+                        <tr>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                            <td>41</td>
+                            <td>42</td>
+                            <td>43</td>
+                        </tr>
+                        <tr>
+                            <td>44</td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td>47</td>
+                            <td>48</td>
+                            <td>49</td>
+                        </tr>
+                    </table>
+                    <button type="submit" id="btn__apply">Применить</button>
+                    <button type="reset" id="btn__reset">Сбросить</button>
+            </div>
+            </form>
+
+            <div class="section__two__products">
+                <div class="card">
+                    <img src="/img/product.png" alt="Nike Air Force 1'07 QS" class="card__img" />
+                    <p class="card__title">Nike Air Force 1'07 QS</p>
+                    <p class="card__price">11 000 ₽</p>
+                </div>
+                <div class="card">
+                    <img src="/img/product.png" alt="Nike Air Force 1'07 QS" class="card__img" />
+                    <p class="card__title">Nike Air Force 1'07 QS</p>
+                    <p class="card__price">11 000 ₽</p>
+                </div>
+                <div class="card">
+                    <img src="/img/product.png" alt="Nike Air Force 1'07 QS" class="card__img" />
+                    <p class="card__title">Nike Air Force 1'07 QS</p>
+                    <p class="card__price">11 000 ₽</p>
+                </div>
+                <div class="card">
+                    <img src="/img/product.png" alt="Nike Air Force 1'07 QS" class="card__img" />
+                    <p class="card__title">Nike Air Force 1'07 QS</p>
+                    <p class="card__price">11 000 ₽</p>
+                </div>
+                <div class="card">
+                    <img src="/img/product.png" alt="Nike Air Force 1'07 QS" class="card__img" />
+                    <p class="card__title">Nike Air Force 1'07 QS</p>
+                    <p class="card__price">11 000 ₽</p>
+                </div>
+                <div class="card">
+                    <img src="/img/product.png" alt="Nike Air Force 1'07 QS" class="card__img" />
+                    <p class="card__title">Nike Air Force 1'07 QS</p>
+                    <p class="card__price">11 000 ₽</p>
+                </div>
+                <div class="card">
+                    <img src="/img/product.png" alt="Nike Air Force 1'07 QS" class="card__img" />
+                    <p class="card__title">Nike Air Force 1'07 QS</p>
+                    <p class="card__price">11 000 ₽</p>
+                </div>
+                <div class="card">
+                    <img src="/img/product.png" alt="Nike Air Force 1'07 QS" class="card__img" />
+                    <p class="card__title">Nike Air Force 1'07 QS</p>
+                    <p class="card__price">11 000 ₽</p>
+                </div>
+                <div class="card">
+                    <img src="/img/product.png" alt="Nike Air Force 1'07 QS" class="card__img" />
+                    <p class="card__title">Nike Air Force 1'07 QS</p>
+                    <p class="card__price">11 000 ₽</p>
+                </div>
+                <button>Показать еще</button>
+            </div>
+        </section>
+
+        <section class="section__three" id="about">
+            <div class="section__three__content">
+                <h2 class="section__three__title">Пара слов о нас</h2>
+                <p class="section__three__text">
+                    Спорт держит нас в форме. Учит дисциплине. Объединяет нас. Через спорт
+                    мы можем менять жизни. В том числе с помощью воодушевляющих историй
+                    спортсменов. Чтобы помочь тебе подняться и двигаться вперед.
+                </p>
+                <p class="section__three__author">SneakMax</p>
+
+            </div>
+        </section>
+
+        <section class="section__four" id="questions">
+            <h1 class="section__four__title">Мы подберем идеальную пару для вас</h1>
+            <p class="section__four__text">Ответьте на три вопроса и мы вышлем каталог с самыми подходящими для вас
+                моделями </p>
+            <h2 class="section__four__subtitle">Какой тип кроссовок рассматриваете?</h2>
+            <div class="section__four__content">
+                <div class="card2">
+                    <img class="card2__img" src="/img/product2.jpg" alt="кроссовки">
+                    <input class="card2__checkbox" type="checkbox">кеды
+                </div>
+                <div class="card2">
+                    <img class="card2__img" src="/img/product2.jpg" alt="кроссовки">
+                    <input class="card2__checkbox" type="checkbox">кеды
+                </div>
+                <div class="card2">
+                    <img class="card2__img" src="/img/product2.jpg" alt="кроссовки">
+                    <input class="card2__checkbox" type="checkbox">кеды
+                </div>
+                <div class="card2">
+                    <img class="card2__img" src="/img/product2.jpg" alt="кроссовки">
+                    <input class="card2__checkbox" type="checkbox">кеды
+                </div>
+                <div class="card2">
+                    <img class="card2__img" src="/img/product2.jpg" alt="кроссовки">
+                    <input class="card2__checkbox" type="checkbox">кеды
+                </div>
+                <div class="card2">
+                    <img class="card2__img" src="/img/product2.jpg" alt="кроссовки">
+                    <input class="card2__checkbox" type="checkbox">кеды
+                </div>
+                <button class="section__four__button">Следующий шаг</button>
+
+            </div>
+        </section>
+
+        <section class="section__five" id="team">
+            <h1 class="section__five__title">Наша команда</h1>
+            <div class="section__five__employees">
+                <div class="section__five__content">
+                    <img class="section__five__img" src="/img/employee.png" alt="employee">
+                    <h2 class="section__five__name">Максим Иванов</h2>
+                    <p class="section__five__position">Администратор</p>
+                </div>
+                <div class="section__five__content">
+                    <img class="section__five__img" src="/img/employee.png" alt="employee">
+                    <h2 class="section__five__name">Мак`сим Иванов</h2>
+                    <p class="section__five__position">Администратор</p>
+                </div>
+                <div class="section__five__content">
+                    <img class="section__five__img" src="/img/employee.png" alt="employee">
+                    <h2 class="section__five__name">Максим Иванов</h2>
+                    <p class="section__five__position">Администратор</p>
+                </div>
+                <div class="section__five__content">
+                    <img class="section__five__img" src="/img/employee.png" alt="employee">
+                    <h2 class="section__five__name">Максим Иванов</h2>
+                    <p class="section__five__position">Администратор</p>
+                </div>
+                <div class="section__five__content">
+                    <img class="section__five__img" src="/img/employee.png" alt="employee">
+                    <h2 class="section__five__name">Максим Иванов</h2>
+                    <p class="section__five__position">Администратор</p>
+                </div>
+                <div class="section__five__content">
+                    <img class="section__five__img" src="/img/employee.png" alt="employee">
+                    <h2 class="section__five__name">Максим Иванов</h2>
+                    <p class="section__five__position">Администратор</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__six" id="contacts">
+            <h1 class="section__six__title">Контакты</h1>
+
+            <div class="section__six__content">
+                <div class="section__six__contacts">
+                    <h3>Адрес:</h3>
+                    <p>г. Москва, ул. Пушкина, д. 123</p>
+                </div>
+                <div class="section__six__contacts">
+                    <h3>Телефон:</h3>
+                    <p>8 (123) 456-78-90</p>
+                </div>
+                <div class="section__six__contacts">
+                    <h3>Почта:</h3>
+                    <p>info@SneakMax.ru</p>
+                </div>
+                <iframe class="section__six__map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577332.5666751231!2d36.726203376731746!3d55.58103349725396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1734295080575!5m2!1sru!2sru"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h1 class="footer__logo">SneakMax</h1>
+        <nav class="footer__menu">
+            <ul>
+                <li><a href="#about">Каталог</a></a></li>
+                <li><a href="#catalog">О нас</a></li>
+                <li><a href="#questions">Подборка товаров</a></li>
+                <li><a href="#team">Наша команда</a></li>
+                <li><a href="#team">Доставка и оплата</a></li>
+                <li><a href="#team">Контакты</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
